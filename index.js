@@ -30,8 +30,9 @@ app.use('/api/users',userRoute)
 app.use('/api/auth',authRoute)
 app.use('/api/posts',postsRoute)
 
+const port=process.env.PORT || 8080
 
-app.listen(8080,()=>{
+app.listen(port,()=>{
     console.log('Server is listening')
 })
 
