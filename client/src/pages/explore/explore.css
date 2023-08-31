@@ -1,0 +1,9 @@
+.explore{
+    border: 2px solid black;
+    height: 100vh;
+    background-color: rgb(214, 183, 183);
+}
+.exploreContainer{
+    background-color: green;
+    height: 50vh;
+}
